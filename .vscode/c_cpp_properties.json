@@ -18,7 +18,8 @@
                 "/usr/mips-linux-gnu/include"
             ],
             "defines": [
-                "_MIPS_SZLONG=64"
+                "_MIPS_SZLONG=64",
+                "__STDC_IEC_559__"
             ],
             "compilerPath": "/usr/bin/mips-linux-gnu-gcc",
             "cStandard": "c99",

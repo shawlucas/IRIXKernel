@@ -19,7 +19,6 @@
 
 #define __STDC_IEC_559__ 1
 #include "fpparts.h"
-#undef  __STDC_IEC_559__
 
 /*
  * The 'ilogb()' function is equivalent to: (int)logb(x);
