@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "clang-x64"
+        },
+        {
+            "name": "mips-linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/mips-linux-gnu/include"
+            ],
+            "defines": [
+                "_MIPS_SZLONG=64"
+            ],
+            "compilerPath": "/usr/bin/mips-linux-gnu-gcc",
+            "cStandard": "c99",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "gcc-x64",
+            "compilerArgs": []
+        }
+    ],
+    "version": 4
+}
